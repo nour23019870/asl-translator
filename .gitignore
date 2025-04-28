@@ -1,0 +1,97 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific
+*.log
+asl_prediction_log.txt
+*.h5
+!asl_skeleton_cnn_best.h5  # Keep the trained model in the repo
+dataset/     # Ignore dataset directory with training/test images
+asl_subtitle.txt   # Generated subtitle files
+*.joblib     # Saved ML models
+*.csv        # Data files
+hand-landmark/     # Additional model directory
+__pycache__/
+*/__pycache__/
+**/__pycache__/
+
+# Checkpoint files
+checkpoint
+*.ckpt
+*.pt
+*.pth
+
+# Generated images/videos
+*.mp4
+*.avi
+*.jpg
+*.jpeg
+*.png
+!dataset/**/*.png  # Keep dataset images if needed
+!dataset/**/*.jpeg
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
