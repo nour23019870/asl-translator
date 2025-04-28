@@ -2,8 +2,6 @@
 
 A real-time American Sign Language (ASL) translator that uses computer vision and deep learning to recognize and interpret hand gestures.
 
-![ASL Translator Demo](https://via.placeholder.com/800x400.png?text=ASL+Translator+Demo)
-
 ## 📋 Overview
 
 This project utilizes MediaPipe for hand landmark detection and a custom CNN model to classify hand gestures into American Sign Language (ASL) letters and numbers. The system can detect and translate:
